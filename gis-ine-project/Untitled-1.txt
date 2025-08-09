@@ -1,0 +1,15 @@
+gis-ine-project/
+├── backend/
+│   ├── node_modules/
+│   ├── .env                # Variables de entorno (conexión a BD, claves de API)
+│   ├── package.json        # Dependencias y scripts del proyecto
+│   ├── server.js           # Archivo principal del servidor Express
+│   └── routes/
+│       └── api.js          # Define las rutas de nuestra API (ej. /api/secciones)
+│
+└── frontend/
+    ├── index.html          # La página principal que verá el usuario
+    ├── css/
+    │   └── style.css       # Estilos para la página
+    └── js/
+        └── map.js          # Lógica de JavaScript para el mapa y la interacción

@@ -1,0 +1,22 @@
+gis-ine-project/
+├── backend/
+│   ├── config/
+│   │   └── db.js           # Configura la conexión a tu base de datos PostgreSQL.
+│   ├── controllers/
+│   │   └── seccionesController.js # Contiene la lógica para buscar en la base de datos.
+│   ├── models/
+│   │   └── seccion.js      # (Opcional) Para definir modelos de datos más complejos.
+│   ├── routes/
+│   │   └── secciones.js    # Define las URLs de la API (ej. /api/secciones).
+│   ├── package.json        # Gestiona las dependencias del backend (Express, pg, etc.).
+│   └── server.js           # El archivo principal que inicia el servidor.
+├── data/
+│   └── README.md           # ¡MUY IMPORTANTE! Instrucciones para obtener e importar los datos.
+├── frontend/
+│   ├── css/
+│   │   └── style.css       # Estilos de la página.
+│   ├── js/
+│   │   └── map.js          # Lógica del mapa y comunicación con el backend.
+│   └── index.html          # La página web principal que verá el usuario.
+├── .gitignore              # Archivo para que Git ignore carpetas como node_modules.
+└── README.md               # Instrucciones generales del proyecto.
